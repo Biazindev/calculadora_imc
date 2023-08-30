@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#root {
+    margin-top: 80px;
+}
+
+.header {
+    margin: 0 auto;
+    display: table;
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    border-radius: 10px;
+    width: 350px;
+    align-items: center;
+}
+
+.header h1 {
+margin-left: 50px;}
+
+.container {
+    display: block;
+    
+}
+
+.tabela {
+
+    border: 3px solid #000;
+    margin: 0 auto;
+}
+
+.peso, .altura, .calcular, .resultado {
+    margin: 16px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.peso input, .altura input {
+    font-weight: bold;
+    width: 350px;
+}
+
+.peso {
+    margin: 16px;
+}
+
+.calcular button {
+    width: 350px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
